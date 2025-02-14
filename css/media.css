@@ -1,0 +1,217 @@
+@media screen and (max-width: 1080px) {
+  section {
+    height: auto !important;
+    overflow: hidden !important;
+  }
+
+  header .languge {
+    display: none;
+  }
+
+  #section1 {
+    height: 100vh !important;
+    padding: 20px 20px;
+  }
+  #section1 .global h2 {
+    font-size: 5vw;
+  }
+  #section1 .global p {
+    font-size: 1.6vw;
+  }
+
+  #section2 {
+    margin-bottom: 60px;
+  }
+  #section2 > .wrap {
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #section2 article {
+    margin: 0 7px 0 14px;
+    height: 580px !important;
+  }
+  #section2 article > .wrap {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  #section2 .page {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  #section2 .title {
+    width: 100%;
+  }
+  #section2 .title h3 {
+    font-size: 3.3vw;
+    white-space: nowrap;
+  }
+  #section2 .title h3 br {
+    display: none;
+  }
+  #section2 .title p {
+    margin: 10px 0 40px;
+    font-size: 1.6vw;
+  }
+  #section2 .title button {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  #section2 figure {
+    width: 100%;
+  }
+
+  #section3 .project {
+    padding-left: 15px;
+  }
+  #section3 .solution {
+    padding: 0 15px;
+  }
+  #section3 article h2,
+  #section3 p {
+    font-size: 1.5vw;
+  }
+  #section3 .infoBox {
+    height: 26vh;
+  }
+  #section3 .infoBox .wrap {
+    padding: 15px 15px;
+  }
+  #section3 .infoBox h3 {
+    font-size: 2vw;
+    margin-bottom: 10px;
+  }
+  #section3 .infoBox p {
+    font-size: 1.4vw;
+  }
+  #section3 .infoBox .more {
+    left: 15px;
+    width: calc(100% - 30px);
+  }
+  #section3 .infoBox .more .line {
+    margin-bottom: 10px;
+  }
+  #section3 .infoBox p {
+    margin-bottom: 10px;
+  }
+  #section3 .swiper-slide figure img {
+    transform: translateX(0);
+  }
+  #section3 .showroom h2 {
+    padding-left: 15px;
+  }
+  #section3 .panorama {
+    height: 40vh;
+    padding: 0 15px;
+  }
+  #section3 .panorama .text-area {
+    flex-direction: column;
+  }
+  #section3 .panorama .text-area > div {
+    width: 100%;
+  }
+  #section3 .panorama .text-area * {
+    margin-bottom: 5px;
+  }
+  #section3 .panorama .text-area .no1 {
+    margin-bottom: 30px;
+  }
+  #section3 .panorama .text-area h3 {
+    font-size: 2.2vw;
+  }
+  #section3 .panorama .text-area p {
+    font-size: 1.4vw;
+  }
+  #section3 .panorama .text-area .line {
+    margin: 10px 0;
+  }
+
+  footer {
+    padding: 0 15px;
+  }
+  footer > div {
+    padding: 15px 0;
+  }
+  footer p {
+    font-size: 1.4vw;
+  }
+  footer .mid {
+    height: 40vh;
+    flex-direction: column;
+  }
+  footer .mid > div:first-child {
+    display: none;
+  }
+  footer .mid h5 {
+    font-size: 1.2vw;
+  }
+  footer .mid p {
+    font-size: 1.4vw;
+  }
+  footer .mid > div:last-child p:last-child {
+    margin-top: 15px;
+  }
+  footer .mid em {
+    position: static;
+    transform: translateX(0);
+    display: block;
+    text-align: left;
+  }
+  footer .bottom {
+    justify-content: flex-end;
+  }
+  footer .bottom ul {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #section1 .leader .bottom-text p,
+  #section1 .global p,
+  #section2 .title p,
+  #section3 article h2,
+  #section3 p,
+  #section3 .panorama .text-area p,
+  #section3 .swiper-slide figcaption *,
+  footer p {
+    font-size: 2.4vw;
+  }
+  #section2 > .wrap {
+    display: block;
+  }
+  #section2 .page {
+    margin-bottom: 30px;
+  }
+  #section2 .title h3 {
+    font-size: 5vw;
+  }
+  #section2 .title p {
+    margin: 10px 0 20px;
+  }
+  #section2 .title button,
+  #section3 .infoBox p,
+  footer .mid p,
+  footer .mid h5 {
+    font-size: 2.3vw;
+  }
+  #section3 .boxWrap {
+    display: block;
+  }
+  #section3 .infoBox {
+    width: 100% !important;
+    height: 20vh;
+    margin-bottom: 20px;
+  }
+  #section3 .infoBox h3,
+  #section3 .panorama .text-area h3 {
+    font-size: 3.2vw;
+  }
+  #section3 .swiper-slide figure img {
+    height: 50vh;
+    transform: translateX(-25%);
+  }
+}

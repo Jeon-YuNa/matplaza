@@ -1,0 +1,65 @@
+:root {
+  --basic-black: #121212;
+  --arrowMotion: arrowMotion 0.3s ease-in-out;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Pretendard Variable";
+  color: var(--basic-black);
+}
+html,
+body,
+section {
+  width: 100vw;
+  overflow-x: hidden;
+}
+section {
+  height: 100vh !important;
+  overflow: hidden !important;
+}
+section,
+article {
+  position: relative;
+}
+img {
+  width: 100%;
+}
+span,
+em,
+strong {
+  display: inline-block;
+}
+em {
+  font-style: normal;
+}
+p {
+  line-height: 1.4;
+}
+li {
+  list-style: none;
+}
+button {
+  cursor: pointer;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+}
+.arrow {
+  margin-left: 20px;
+  width: 30px;
+}
+@keyframes arrowMotion {
+  50% {
+    transform: translateX(-30%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+button:hover .arrow {
+  animation: var(--arrowMotion);
+}
